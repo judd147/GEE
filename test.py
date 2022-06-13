@@ -2,6 +2,7 @@
 import ee
 import geemap.foliumap as geemap
 
+ee.Initialize()
 # Create an interactive map
 Map = geemap.Map(plugin_Draw=True, Draw_export=False)
 # Add a basemap
